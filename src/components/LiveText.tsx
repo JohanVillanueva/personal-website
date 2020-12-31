@@ -4,7 +4,7 @@ import LiveDot from './LiveDot';
 
 const StyledLiveText = styled.a`
   display: flex;
-  position: absolute;
+  position: fixed;
   bottom: 32px;
   width: 100%;
   justify-content: center;
