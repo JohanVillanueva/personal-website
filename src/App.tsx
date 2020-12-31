@@ -4,7 +4,7 @@ import { HomePage } from './pages';
 
 const App: React.FunctionComponent = () => (
   <>
-    <ParticlesBackground></ParticlesBackground>
+    <ParticlesBackground />
     <HomePage />
   </>
 );
