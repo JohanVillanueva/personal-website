@@ -2,6 +2,8 @@
 
 > A personal website made with ReactJS + Typescript & StyledComponents
 
+![Website Preview](https://repository-images.githubusercontent.com/325872195/1f203180-4b81-11eb-88ee-ca42497f1628)
+
 
 ## NPM scripts 🔧
 
