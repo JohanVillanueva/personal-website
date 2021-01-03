@@ -21,7 +21,7 @@ interface LiveTextProps {
 
 const LiveText: React.FC<LiveTextProps> = ({ message, link }: LiveTextProps) => {
   return (
-    <StyledLiveText href={link} target="_blank">
+    <StyledLiveText href={link} target="_blank" rel="noreferrer">
       <LiveDot />
       {message}
     </StyledLiveText>

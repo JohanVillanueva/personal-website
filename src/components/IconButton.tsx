@@ -46,7 +46,7 @@ interface IconButtonProps {
 
 const IconButton: React.FC<IconButtonProps> = ({ icon, link }: IconButtonProps) => {
   return (
-    <StyledIconButton href={link} target="_blank">
+    <StyledIconButton href={link} target="_blank" rel="noreferrer">
       <FontAwesomeIcon icon={icon} className="icon" />
     </StyledIconButton>
   );
