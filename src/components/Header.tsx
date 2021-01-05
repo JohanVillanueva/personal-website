@@ -1,4 +1,4 @@
-import { faDownload } from '@fortawesome/free-solid-svg-icons';
+import { faDownload } from '@fortawesome/free-solid-svg-icons/faDownload';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import styled from 'styled-components';
@@ -46,7 +46,7 @@ const RESUME_URL = 'https://bit.ly/38LvN14';
 const Header = () => {
   return (
     <StyledHeader>
-      <img src={logo} alt="Logo" />
+      <img src={logo} alt="Logo" width="36px" height="36px" />
       <a href={RESUME_URL} target="_blank" className="resume" rel="noreferrer">
         RESUME
         <FontAwesomeIcon icon={faDownload} className="icon" />

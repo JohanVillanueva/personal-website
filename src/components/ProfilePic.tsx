@@ -20,7 +20,7 @@ const StyledProfilePic = styled.figure`
 const ProfilePic: React.FC = () => {
   return (
     <StyledProfilePic className="profile-pic">
-      <img src={profilePic} alt="Profile pic" />
+      <img src={profilePic} alt="Profile pic" width="120px" height="120px" />
     </StyledProfilePic>
   );
 };

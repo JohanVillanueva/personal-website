@@ -42,12 +42,14 @@ const StyledIconButton = styled.a`
 interface IconButtonProps {
   icon: IconProp;
   link: string;
+  description: string;
 }
 
-const IconButton: React.FC<IconButtonProps> = ({ icon, link }: IconButtonProps) => {
+const IconButton: React.FC<IconButtonProps> = ({ icon, link, description }: IconButtonProps) => {
   return (
     <StyledIconButton href={link} target="_blank" rel="noreferrer">
       <FontAwesomeIcon icon={icon} className="icon" />
+      <span className="visible-hidden">{description}</span>
     </StyledIconButton>
   );
 };
