@@ -32,8 +32,8 @@ const StyledHomePage = styled.main`
 
 const PERSON_NAME = 'Johan Villanueva';
 const JOB_LABELS = ['FRONTEND ENGINEER', 'UI/UX ENTHUSIASTIC', 'SPEAKER'];
-const CURRENT_JOB = 'Currently working at Avantica Peru';
-const CURRENT_COMPANY_WEBSITE_URL = 'https://www.avantica.com/';
+const CURRENT_JOB = 'Currently working at Crehana';
+const CURRENT_COMPANY_WEBSITE_URL = 'https://www.crehana.com/home/';
 
 const HomePage: React.FC = () => {
   return (
