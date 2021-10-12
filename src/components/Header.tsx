@@ -10,7 +10,7 @@ const StyledHeader = styled.header`
   padding: 0 32px;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
 
   & {
@@ -47,10 +47,6 @@ const Header = () => {
   return (
     <StyledHeader>
       <img src={logo} alt="Logo" width="36px" height="36px" />
-      <a href={RESUME_URL} target="_blank" className="resume" rel="noreferrer">
-        RESUME
-        <FontAwesomeIcon icon={faDownload} className="icon" />
-      </a>
     </StyledHeader>
   );
 };
